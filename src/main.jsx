@@ -4,6 +4,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 import App from "./App";
 import A from "./components/a";
+import Register2 from "./components/register2";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/a" element={<A />} />
+        <Route path="/register2" element={<Register2 />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
