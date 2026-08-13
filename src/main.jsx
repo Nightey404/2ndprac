@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 import App from "./App";
+import "./App.css";
 import A from "./components/a";
 import Register2 from "./components/register2";
 

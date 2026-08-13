@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "./App.css";
+import "../App.css";
 
 function Register2() {
   const [firstname, setFirstname] = useState("");
